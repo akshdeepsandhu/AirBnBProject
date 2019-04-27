@@ -197,7 +197,7 @@ fitbest <- arima(weekly,order=c(0,1,2),seasonal = list(order=c(1,1,0),period=52)
 #view predictions
 fcast <- forecast(fitbest,h=104)
 
-plot(fcast,main='Forecast into 2021',xlab=)
+plot(fcast,main='Forecast into 2021')
 ```
 
 ![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-10-1.png)
