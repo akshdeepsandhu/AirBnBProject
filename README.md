@@ -81,7 +81,11 @@ The model that was fit by R is the following:
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{v}_t&space;=&space;\alpha(z_t&space;-&space;\hat{s}_{t-d})&space;&plus;&space;(1&space;-&space;\alpha)(\hat{v}_{t-1}&space;&plus;&space;\hat{b}_{t-1})&space;\\&space;\hat{b}_t&space;=&space;\beta(\hat{v}_t&space;-&space;\hat{v}_{t-1})&space;&plus;&space;(1&space;-&space;\beta)\hat{b}_{t-1})\\&space;\hat{s}_t&space;=&space;\gamma(z_t&space;-&space;\hat{v}_t)&space;&plus;&space;(1-\gamma)\hat{s}_{t-d}\\&space;\hat{z}_t(h)&space;=&space;\hat{s}_{t&plus;h-d}&space;&plus;&space;(\hat{v}_t&space;&plus;&space;h\hat{b}_t)&space;\quad&space;h&space;=&space;1,...,d" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{v}_t&space;=&space;\alpha(z_t&space;-&space;\hat{s}_{t-d})&space;&plus;&space;(1&space;-&space;\alpha)(\hat{v}_{t-1}&space;&plus;&space;\hat{b}_{t-1})&space;\\&space;\hat{b}_t&space;=&space;\beta(\hat{v}_t&space;-&space;\hat{v}_{t-1})&space;&plus;&space;(1&space;-&space;\beta)\hat{b}_{t-1})\\&space;\hat{s}_t&space;=&space;\gamma(z_t&space;-&space;\hat{v}_t)&space;&plus;&space;(1-\gamma)\hat{s}_{t-d}\\&space;\hat{z}_t(h)&space;=&space;\hat{s}_{t&plus;h-d}&space;&plus;&space;(\hat{v}_t&space;&plus;&space;h\hat{b}_t)&space;\quad&space;h&space;=&space;1,...,d" title="\hat{v}_t = \alpha(z_t - \hat{s}_{t-d}) + (1 - \alpha)(\hat{v}_{t-1} + \hat{b}_{t-1}) \\ \hat{b}_t = \beta(\hat{v}_t - \hat{v}_{t-1}) + (1 - \beta)\hat{b}_{t-1})\\ \hat{s}_t = \gamma(z_t - \hat{v}_t) + (1-\gamma)\hat{s}_{t-d}\\ \hat{z}_t(h) = \hat{s}_{t+h-d} + (\hat{v}_t + h\hat{b}_t) \quad h = 1,...,d" /></a>
 
-The above recursion equations are intialized according to the deafult R method. The parameter estimates are: - *α* = 0.003607012 - *β* = 0.3482321 - *γ* = 0.6589511
+The above recursion equations are intialized according to the deafult R method. The parameter estimates are:
+
+- *α* = 0.003607012 
+- *β* = 0.3482321 
+- *γ* = 0.6589511
 
 The seasonal parameters are not included for berivity. 
 
