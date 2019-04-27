@@ -133,7 +133,7 @@ adf.test(weekly,alternative = "stationary")
 
 ``` r
 #Variogram defintion: 
-#G(k) = Var(vt+k - vt)/Var(zt+1 - zt)
+#G(k) = Var(zt+k - zt)/Var(zt+1 - zt)
 Var <- var(diff(weekly,lag=1))
 Gk <- vector(mode='numeric',length=48)
 for (k in 1:48){
