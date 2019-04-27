@@ -114,7 +114,10 @@ The steps to determine them will be:
 3.  Repeat 2 for P,D,Q
 4.  Fit model with found parameters and season. See if anything can be improved through changing parameters a littl more
 
-Note ARIMA models work on the assumption of stationarity. \#\#\#\# Testing stationarity
+Note ARIMA models work on the assumption of stationarity.
+
+Testing stationarity
+--------------------
 
 ``` r
 #testing stationarity
