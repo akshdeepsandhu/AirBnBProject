@@ -140,7 +140,9 @@ Both the ADF test and the Varoigram suggest that our time series is borderline n
     ## Dickey-Fuller = -8.0098, Lag order = 5, p-value = 0.01
     ## alternative hypothesis: stationary
 
-![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-6-1.png) The time series was differenced by 1-step as seen above. The new differenced time series appears to be stationary thus we assume `d = 1` in our model. To determine the other parameters the ACF and PACF were plotted.
+![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-6-1.png) 
+
+The time series was differenced by 1-step as seen above. The new differenced time series appears to be stationary thus we assume `d = 1` in our model. To determine the other parameters the ACF and PACF were plotted.
 
 ![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-7-1.png)![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-7-2.png)
 
