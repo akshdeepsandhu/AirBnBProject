@@ -167,7 +167,7 @@ The ACF plot shows lags 1 and 2 are signficant(pssibly some later ones), while t
 
 `p = 3` `q = 2`
 
-Since there are a lot of signficant lags, it might be hard to decide what parameters to choose for the model. A good starting point is the auto.arima() function. This find the best fitting model based on either AIC or BIC. From the above acf and pacf plots a ARIMA(3,1,2) may be approriate.
+Since there are a lot of signficant lags, it might be hard to decide what parameters to choose for the model. A good starting point is the auto.arima() function. This find the best fitting model based on either AIC or BIC. From the above acf and pacf plots a ARIMA(3,1,2) may be approriate. Another method to decide an intial model is to use the ```auto.arima()``` function, part of the forecast package.
 
     ## Series: diff_ds 
     ## ARIMA(3,0,1) with zero mean 
