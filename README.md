@@ -41,7 +41,9 @@ weekly_components <- decompose(weekly)
 plot(weekly_components)
 ```
 
-![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-3-1.png) We can see that is a seasonality with price spikes in the summer. The trend also shows us that the prices initially start off quite high, followed by a drop and then a resurgence in price, possibly due to increased tourism and increased market activity. The remainder also shows that there is a lot of noise at the start, again due to uncertainty about to price a house. This slowly gets better with less variation, due to prices settling down.
+![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-3-1.png) \
+
+We can see that is a seasonality with price spikes in the summer. The trend also shows us that the prices initially start off quite high, followed by a drop and then a resurgence in price, possibly due to increased tourism and increased market activity. The remainder also shows that there is a lot of noise at the start, again due to uncertainty about to price a house. This slowly gets better with less variation, due to prices settling down.
 
 Before trying to fit an ARIMA model, a Holt-Winter model was fit. This is a simple seasonal exponential smoothing model that was used as a baseline, and every other model built was compared to this.
 
