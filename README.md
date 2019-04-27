@@ -10,6 +10,12 @@ This project will be split into four parts.
 -   Part 3: ARIMA modeling
 -   Part 4: ARMAX model and Shiny app
 
+Simple Models
+=============
+
+This section will fit a simple [Seasonal Exponential Smoothing model](https://en.wikipedia.org/wiki/Exponential_smoothing).
+The first step will be to visualize the time series data.
+
 ``` r
 #plot weekly time series
 print(plot.xts(weekly_ts))
@@ -17,10 +23,8 @@ print(plot.xts(weekly_ts))
 
 ![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-2-1.png)
 
-Simple Models
-=============
 
-This section will fit a simple [Seasonal Exponential Smoothing model](https://en.wikipedia.org/wiki/Exponential_smoothing).
+
 
 #### Decompoistion of time series
 
