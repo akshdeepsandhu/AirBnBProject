@@ -177,7 +177,8 @@ Since there are a lot of signficant lags, it might be hard to decide what parame
     ## sigma^2 estimated as 0.009473:  log likelihood=184.22
     ## AIC=-358.44   AICc=-358.13   BIC=-341.92
 
-![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-8-1.png)![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-8-2.png) The above models and residuals look good. There are no significant PACF or ACF lags. Several other ARIMA models were fit and the RMSEs were compared. It was found that an ARIMA(0,1,2)(1,1,0) model produced the lowest RMSE value.
+![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-8-1.png)![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-8-2.png) 
+The above models and residuals look good. There are no significant PACF or ACF lags. Several other ARIMA models were fit and the RMSEs were compared. It was found that an ARIMA(0,1,2)(1,1,0) model produced the lowest RMSE value.
 
 ![](AirBnBProject_files/figure-markdown_github/unnamed-chunk-9-1.png)
 
