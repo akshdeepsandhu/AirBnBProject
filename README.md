@@ -8,7 +8,7 @@ This project will be split into four parts.
 -   Part 1: Data Acquistion and Cleaning
 -   Part 2: Data Visualisation and simple time series modeling
 -   Part 3: ARIMA modeling
--   Part 4: ARMAX model and Shiny app
+-   Part 4: HSFM model and Shiny app
 
 Simple Models
 =============
